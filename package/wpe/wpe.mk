@@ -235,7 +235,7 @@ WPE_BUILD_TARGETS += jsc
 endif
 ifeq ($(WPE_BUILD_WEBKIT),y)
 WPE_BUILD_TARGETS += libWPEWebKit.so libWPEWebInspectorResources.so \
-	WPE{Database,Network,Web}Process libWPE.so libWPE-platform.so
+	WPE{Database,Network,Web}Process libWPE.so
 
 endif
 
